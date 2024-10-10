@@ -1,0 +1,22 @@
+﻿<Window x:Class="GitTaak1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GitTaak1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#58A518">
+        <Canvas Height="25" Background="LightGray" Margin="0,0,0,409"/>
+        <Image Name="filmEen" Margin="77,98,563,98" Source="assets/dune2.jpg" Stretch="Fill" MouseLeftButtonDown="Film1_Click"/>
+        <Image Name="filmTwee" Margin="320,98,320,98" Source="assets/furiosa.jpg" Stretch="Fill" MouseLeftButtonDown="Film2_Click"/>
+        <Image Name="filmDrie" Margin="562,98,77,98" Source="assets/thesubstance.jpg" Stretch="Fill" MouseLeftButtonDown="Film3_Click"/>
+        <TextBlock Name="beschrijvingTextBlock" HorizontalAlignment="Center" Margin="0,354,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="646" Height="70"/>
+        <Ellipse HorizontalAlignment="Left" Height="12" Margin="10,7,0,0" Stroke="Gray" Fill="Gray" VerticalAlignment="Top" Width="12"/>
+        <Ellipse HorizontalAlignment="Left" Height="12" Margin="27,7,0,0" Stroke="Gray" Fill="Gray" VerticalAlignment="Top" Width="12"/>
+        <Ellipse HorizontalAlignment="Left" Height="12" Margin="44,7,0,0" Stroke="Gray" Fill="Gray" VerticalAlignment="Top" Width="12"/>
+        <Image Name="logoFoto" Margin="27,36,614,350" Source="assets/logo_pxl_digital.png" Stretch="Fill"/>
+        <Label Name="titelLabel"  Content="" HorizontalAlignment="Left" Margin="225,36,0,0" VerticalAlignment="Top" Width="520" Height="42" FontSize="30" BorderBrush="Black" BorderThickness="2"/>
+
+    </Grid>
+</Window>
